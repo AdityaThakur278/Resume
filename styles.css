@@ -1,0 +1,265 @@
+/* background-color: rgba(67, 89, 164, 255); */
+
+/* p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sub-container {
+    background-color: white;
+}
+
+header {
+    padding: 4%;
+}
+
+.name {
+    font-size: 3.5rem;
+}
+
+.competitive {
+    font-size: 1.6rem;
+    color: rgba(67, 89, 164, 255);
+}
+
+.quote {
+    font-size: 1.2rem;
+    padding-top: 0.6rem;
+}
+
+.contact-info {
+    background-color: rgba(67, 89, 164, 255);
+    padding: 0.8% 4%;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info-left, .contact-info-right {
+    width: 50%;
+}
+
+.contact-info-right {
+    padding-left: 2%;
+}
+
+.contact-info-item {
+    display: flex;
+    flex-direction: row;
+    padding: 1% 0;
+}
+
+.url {
+    overflow: hidden;
+    word-wrap: break-word;
+    padding-left: 2%;
+}
+
+.education {
+    padding: 2% 4%;
+    padding-left: 0;
+}
+
+.article-title {
+    padding-left: 4%;
+    font-size: 1.7rem;
+    color: rgba(67, 89, 164, 255);
+    font-weight: bold;
+}
+
+.article-item {
+    display: flex;
+    flex-direction: row;
+    padding: 1% 0 2% 0; 
+    width: 100%;
+}
+
+.article-item-info {
+    width: 96%;
+}
+
+.dash {
+    width: 4%;
+    position: relative;
+}
+
+.dash-item {
+    position: absolute;
+    margin-top: 0.7rem;
+    width: 0.7rem;
+    height: 2.5px;
+    background-color: rgba(67, 89, 164, 255);
+}
+
+.course {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.place {
+    font-size: 1.2rem;
+    padding-bottom: 0.5%;
+}
+
+.course-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.course-info-item {
+    font-size: 0.9rem;
+    color: rgba(67, 89, 164, 255);
+    font-style: italic;
+}
+
+.project-item {
+    padding: 1.5% 4% 0 4%;
+    width: 100%;
+}
+
+.project-title {
+    font-size: 1.1rem;
+}
+
+.project-desc{
+    font-size: 0.9rem;
+    padding-left: 2%;
+}
+
+.project-desc-line {
+    padding-top: 0.5%;
+}
+
+.projects:last-child {
+    padding-bottom: 3.4%;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 1.3% 4%;
+    width: 100%;
+}
+
+.skills-item {
+    color: white;
+    background-color: rgba(67, 89, 164, 255);
+    padding: 1.5% 2%;
+    margin: 0.7% 1% 0.7% 0;
+    border-radius: 1rem;
+}
+
+.achievements {
+    padding: 2% 0;
+}
+
+.achievements-item {
+    padding: 0 4%;
+    width: 100%;
+}
+
+.achievements-title {
+    padding-top: 2%;
+    font-size: 1.1rem;
+}
+
+.achievements-desc {
+    font-size: 0.9rem;
+    color: grey;
+    padding: 0.2% 0 0 0;
+}
+
+.campus-activity {
+    padding: 1% 0;
+}
+
+.campus-activity-item {
+    padding: 0 4%;
+    width: 100%;
+}
+
+.campus-activity-title {
+    padding-top: 2%;
+    font-size: 1.1rem;
+}
+
+.campus-activity-desc {
+    font-size: 0.9rem;
+    color: grey;
+    padding: 0.2% 0 0 0;
+}
+
+.interests {
+    padding: 2% 0;
+}
+
+.interests-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 1.3% 4%;
+    width: 100%;
+}
+
+.interests-item {
+    padding: 1.5% 2%;
+    margin: 0.7% 1% 0.7% 0;
+    border: 1px solid grey;
+    border-radius: 1rem;
+}
+
+@media only screen and (max-device-width: 640px) {
+    /* .contact-info {
+        flex-direction: column;
+    }
+    .contact-info-right {
+        padding-left: 0%;
+    } */
+}
+
+@media only screen and (min-width: 1008px) {
+
+    .sub-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .article-left, .article-right {
+        width: 50%;
+    }
+    
+    .article {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .education {
+        margin-top: 2%;
+    }
+
+    .skills {
+        margin-top: 3.8%;
+    }
+
+    .project-desc {
+        padding-left: 6%;
+    }
+}
