@@ -227,12 +227,12 @@ header {
 }
 
 @media only screen and (max-device-width: 640px) {
-    /* .contact-info {
+    .contact-info {
         flex-direction: column;
     }
     .contact-info-right {
         padding-left: 0%;
-    } */
+    }
 }
 
 @media only screen and (min-width: 1008px) {
